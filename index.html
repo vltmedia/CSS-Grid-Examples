@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Grid Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+        <link rel="stylesheet" href="">
+   <style>
+   
+.grid{
+
+display: grid;
+grid-template-columns: 70% 30%;
+/* grid-column-gap:1em ;
+grid-row-gap:1em ; */
+grid-gap:1em ;
+}
+
+   .grid> div{
+       background: #eee;
+       padding:1em;
+   }
+   
+   .grid > div:nth-child(odd){
+
+    background:#ddd;
+
+
+   }
+
+   </style>
+   
+    </head>
+    <body>
+        <div class="grid">
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus velit provident, explicabo doloribus magni et exercitationem molestias totam incidunt vel odio perspiciatis delectus quia, earum mollitia aspernatur dolor ea rem cupiditate omnis quasi. Neque repudiandae praesentium quas totam, accusantium voluptas corrupti molestiae at nesciunt, explicabo excepturi natus perspiciatis cum dolorem nulla doloribus commodi sit alias labore officia consequatur suscipit. Magnam quod quaerat laudantium natus suscipit iste, ipsa eaque tempore nemo sed, quibusdam quae recusandae itaque mollitia. Odio, id? At?
+                        </div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab molestiae quo qui in autem eaque veniam labore voluptate minus magnam ipsam nisi aut nesciunt iusto, accusantium maiores nemo quidem ratione non dolor aliquam sint. Eligendi neque tenetur rerum, voluptatum quae veniam animi tempore nulla dignissimos, provident ut culpa officia sunt.</div>
+         <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus velit provident, explicabo doloribus magni et exercitationem molestias totam incidunt vel odio perspiciatis delectus quia, earum mollitia aspernatur dolor ea rem cupiditate omnis quasi. Neque repudiandae praesentium quas totam, accusantium voluptas corrupti molestiae at nesciunt, explicabo excepturi natus perspiciatis cum dolorem nulla doloribus commodi sit alias labore officia consequatur suscipit. Magnam quod quaerat laudantium natus suscipit iste, ipsa eaque tempore nemo sed, quibusdam quae recusandae itaque mollitia. Odio, id? At?
+                        </div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab molestiae quo qui in autem eaque veniam labore voluptate minus magnam ipsam nisi aut nesciunt iusto, accusantium maiores nemo quidem ratione non dolor aliquam sint. Eligendi neque tenetur rerum, voluptatum quae veniam animi tempore nulla dignissimos, provident ut culpa officia sunt.</div>
+   
+        <script src="" async defer></script>
+    </body>
+</html>
